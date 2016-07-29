@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="UserName" value="revanthadonis"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="Password" value="Adonis@0704"/>
+  <test name="Test_Firefox">
+    <parameter name="UserName" value="revanthadonis"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="Password" value="Adonis@0704"/>
+    <classes>
+      <class name="com.finance.testscript.Discover_Testscript"/>
+    </classes>
+  </test> <!-- Test_Firefox -->
+</suite> <!-- Failed suite [Suite] -->

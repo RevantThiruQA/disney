@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23628" started-at="2016-07-29T05:49:22Z" finished-at="2016-07-29T05:49:45Z">
+    <groups>
+    </groups>
+    <test name="Test_Firefox" duration-ms="23628" started-at="2016-07-29T05:49:22Z" finished-at="2016-07-29T05:49:45Z">
+      <class name="com.finance.testscript.Discover_Testscript">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.finance.testscript.Discover_Testscript@4f7d0008]" name="Login" duration-ms="15239" started-at="2016-07-29T01:49:22Z" finished-at="2016-07-29T01:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[revanthadonis]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adonis@0704]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="MovetoStatementPage()[pri:0, instance:com.finance.testscript.Discover_Testscript@4f7d0008]" name="MovetoStatementPage" duration-ms="8368" started-at="2016-07-29T01:49:37Z" depends-on-methods="com.finance.testscript.Discover_Testscript.Login" finished-at="2016-07-29T01:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovetoStatementPage -->
+      </class> <!-- com.finance.testscript.Discover_Testscript -->
+    </test> <!-- Test_Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
